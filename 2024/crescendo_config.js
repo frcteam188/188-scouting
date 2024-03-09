@@ -1,8 +1,8 @@
 var config_data = `
 {
   "dataFormat": "tsv",
-  "title": "Scouting PASS 2024",
-  "page_title": "Crescendo",
+  "title": "188 Scouting 2024",
+  "page_title": "188 Scouting - Centennial District Event",
   "checkboxAs": "10",
   "prematch": [
     { "name": "Scouter Initials",
@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2023tnkn",
+      "defaultValue": "2024onsca",
       "required": "true"
     },
     { "name": "Match Level",
@@ -69,38 +69,79 @@ var config_data = `
       "code": "al",
       "type": "bool"
     },
+    { "name": "Wing Pickup",
+      "code": "wp",
+      "type": "counter"
+    },
+    { "name": "Center line 1",
+      "code": "cl1",
+      "type": "bool"
+    },
+    { "name": "Center line 2",
+      "code": "cl2",
+      "type": "bool"
+    },
+    { "name": "Center line 3",
+      "code": "cl3",
+      "type": "bool"
+    },
+    { "name": "Center line 4",
+      "code": "cl4",
+      "type": "bool"
+    },
+    { "name": "Center line 5",
+      "code": "cl5",
+      "type": "bool"
+    },
     { "name": "Amp Scores",
       "code": "aas",
+      "type": "counter"
+    },
+    { "name": "Amp Misses",
+      "code": "aam",
       "type": "counter"
     },
     { "name": "Speaker Scores",
       "code": "ass",
       "type": "counter"
+    },
+    { "name": "Speaker Misses",
+      "code": "asm",
+      "type": "counter"
     }
   ],
   "teleop": [
+    { "name": "Human Load Pickup",
+      "code": "hlp",
+      "type": "counter"
+    },
+    { "name": "Middle Zone Pickup",
+      "code": "mzp",
+      "type": "counter"
+    },
+    { "name": "Wing Pickup",
+      "code": "twp",
+      "type": "counter"
+    },
     { "name": "Amp Scores",
       "code": "tas",
+      "type": "counter"
+    },
+    { "name": "Amp Misses",
+      "code": "tam",
       "type": "counter"
     },
     { "name": "Speaker Scores",
       "code": "tss",
       "type": "counter"
     },
-    { "name": "Times Amplified",
-      "code": "tta",
+    { "name": "Speaker Misses",
+      "code": "tsm",
       "type": "counter"
     },
-    { "name": "Pickup From",
-      "code": "tpu",
-      "type": "radio",
-      "choices": {
-        "s": "Source<br>",
-        "f": "Floor<br>",
-        "b": "Both<br>",
-        "x": "Not Attempted"
-      },
-      "defaultValue": "x"
+    { "name": "Note Dropped",
+      "code": "nd",
+      "type": "counter"
     }
   ],
   "endgame": [
@@ -168,10 +209,6 @@ var config_data = `
     },
     { "name": "Tippy<br>(almost tipped over)",
       "code": "tip",
-      "type": "bool"
-    },
-    { "name": "Dropped Notes (>2)",
-      "code": "dn",
       "type": "bool"
     },
     { "name": "Make good<br>alliance partner?",
