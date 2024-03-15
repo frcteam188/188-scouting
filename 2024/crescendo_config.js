@@ -2,7 +2,7 @@ var config_data = `
 {
   "dataFormat": "tsv",
   "title": "188 Scouting 2024",
-  "page_title": "188 Scouting - Centennial District Event",
+  "page_title": "188 Scouting - Durham District Event",
   "checkboxAs": "10",
   "prematch": [
     { "name": "Scouter Initials",
