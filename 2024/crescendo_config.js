@@ -216,6 +216,16 @@ var config_data = `
       "code": "all",
       "type": "bool"
     },
+    { "name": "Card?",
+      "code": "card",
+      "type": "radio",
+      "choices": {
+        "1": "nocard <br>",
+        "2": "yellow card<br>",
+        "3": "redcard<br>"
+      },
+      "defaultValue":"1"
+    },
     { "name": "Comments",
       "code": "co",
       "type": "text",
