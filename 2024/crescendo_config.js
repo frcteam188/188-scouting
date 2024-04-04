@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2024onosh",
+      "defaultValue": "2024oncmp2",
       "required": "true"
     },
     { "name": "Match Level",
@@ -115,12 +115,12 @@ var config_data = `
       "code": "hlp",
       "type": "counter"
     },
-    { "name": "Middle Zone Pickup",
-      "code": "mzp",
+    { "name": "Groud Pickup",
+      "code": "gp",
       "type": "counter"
     },
-    { "name": "Wing Pickup",
-      "code": "twp",
+    { "name": "Notes Shuttled",
+      "code": "nsh",
       "type": "counter"
     },
     { "name": "Amp Scores",
