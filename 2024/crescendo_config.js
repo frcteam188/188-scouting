@@ -59,12 +59,12 @@ var config_data = `
       "code": "spo",
       "type": "radio",
       "choices": {
-        "1": "Near (slow)<br>",
-        "2": "Middle<br>",
-        "3": "Far<br>"
+        "1": "1 (slow)<br>",
+        "2": "2<br>",
+        "3": "3<br>",
       },
       "defaultValue":"1"
-    },
+    }
   ],
   "auton": [
     { "name": "Leave Starting Zone",
