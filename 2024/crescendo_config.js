@@ -57,9 +57,13 @@ var config_data = `
     },
     { "name": "Start Position",
       "code": "spo",
-      "type": "text",
-      "size": 15,
-      "maxSize": 55
+      "type": "radio",
+      "choices": {
+        "1": "Source (slow)<br>",
+        "2": "Middle<br>",
+        "3": "Amp<br>"
+      },
+      "defaultValue":"2"
     }
   ],
   "auton": [
