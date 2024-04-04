@@ -162,9 +162,9 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-    { "name": "Note in Trap",
-      "code": "nit",
-      "type": "bool"
+    { "name": "Trap Note Scored",
+      "code": "tns",
+      "type": "counter"
     }
   ],
   "postmatch": [
